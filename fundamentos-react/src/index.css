@@ -1,0 +1,19 @@
+body{
+    background-color: darkred;
+    color: darkorchid;
+}
+h1{
+    position: relative;
+    left: 17em;
+    background-color: pink;
+    width: 8em;
+    border-radius: 5em;
+}
+p{
+    position: relative;
+    background-color: aliceblue;
+    left: 35em;
+    width: 15em;
+    height: 20em;
+    border-radius: 3%;
+}
