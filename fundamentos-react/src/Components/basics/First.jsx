@@ -1,6 +1,7 @@
-import  ReactDom  from "react-dom";
+import React from "react"
 export default function First(props){
-    return (
-        <p> Olha aqui é só um teste mais talvez um dia use esse prototipo pra lhe contar algo especial </p>
+    return (<div>
+        <p> Olha aqui é só um teste mais talvez um dia use esse prototipo pra fazer algo especial </p>
+        </div>
     )
 }

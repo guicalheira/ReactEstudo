@@ -4,14 +4,24 @@ body{
 }
 h1{
     position: relative;
-    left: 17em;
-    background-color: pink;
-    width: 8em;
-    border-radius: 5em;
+    left: 530px;
+    background-color: whitesmoke;
+    color: brown;
+    width: 300px;
+    height:auto ;
+    border-radius: 3%;
+}
+#paragrafo1{
+    position: relative;
+    left: 24em;
+    background-color: aliceblue;
+    width: 40em;
+    border-radius: 4%;
 }
 p{
     position: relative;
     background-color: aliceblue;
+    color: black;
     left: 35em;
     width: 15em;
     height: 20em;
