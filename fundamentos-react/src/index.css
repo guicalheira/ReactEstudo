@@ -1,29 +1,26 @@
-body{
-    background-color: darkred;
-    color: darkorchid;
+body {
+  background-color: #222;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
 }
-h1{
-    position: relative;
-    left: 530px;
-    background-color: whitesmoke;
-    color: brown;
-    width: 300px;
-    height:auto ;
-    border-radius: 3%;
+
+h1,
+h2,
+h3 {
+  font-weight: 200;
 }
-#paragrafo1{
-    position: relative;
-    left: 24em;
-    background-color: aliceblue;
-    width: 40em;
-    border-radius: 4%;
+h2,
+h3 {
+  font-weight: 200;
+  margin: 0;
 }
-p{
-    position: relative;
-    background-color: aliceblue;
-    color: black;
-    left: 35em;
-    width: 15em;
-    height: 20em;
-    border-radius: 3%;
+#botao1 {
+  border-radius: 10%;
+  background-color: white;
+  color: darkred;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 15px;
+  display: block;
 }

@@ -1,7 +1,8 @@
 import React from "react"
-export default function First(props){
+export default function First(props) {
     return (<div>
-        <p> Olha aqui é só um teste mais talvez um dia use esse prototipo pra fazer algo especial </p>
-        </div>
+        <h2>Ola seja bem vindo!!</h2>
+        <p align='center'> Clique aqui para acessar o GitHub de Guilherme Calheira </p>
+    </div>
     )
 }

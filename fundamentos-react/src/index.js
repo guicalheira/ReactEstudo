@@ -1,15 +1,11 @@
-import ReactDom from 'react-dom';
-import './index.css'
-import App from './Components/basics/App';
+import ReactDom from "react-dom";
+import "./index.css";
+import App from "./App.jsx";
 
-const el = document.getElementById ('root') 
-const txt = document.getElementById ('text')
-ReactDom.render(<h1> Oi Aqui começa algo S2!!</h1>, el);
+const el = document.getElementById("root");
 ReactDom.render(
-<div>
-<App>
-
- </App>
-</div>
- ,txt
-     )
+  <div>
+    <App></App>
+  </div>,
+  el
+);
