@@ -7,6 +7,7 @@ import Card from "./Components/layout/Card";
 import Condicional from "./Components/basics/Condicional";
 import Familia from "./Components/basics/Familia";
 import FamiliaMembro from "./Components/basics/FamiliaMembro";
+import TabelaProdutos from "./Components/repeticao/TabelaProdutos";
 export default () => {
   return (
     <div className="App">
@@ -31,6 +32,9 @@ export default () => {
             <FamiliaMembro nome="Luiz"></FamiliaMembro>
             <FamiliaMembro nome="Liz"></FamiliaMembro>
           </Familia>
+        </Card>
+        <Card titulo="Repetição" color='#e52165'>
+          <TabelaProdutos></TabelaProdutos>
         </Card>
       </div>
     </div>
