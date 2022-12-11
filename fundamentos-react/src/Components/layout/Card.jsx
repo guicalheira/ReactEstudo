@@ -9,7 +9,7 @@ export default (props) => {
        }
 
     return (
-        <div className='Card' style={cardStyle}>
+        <div className='Card' style={cardStyle} >
             <div className='Title'>
                 {props.titulo}
             </div>
