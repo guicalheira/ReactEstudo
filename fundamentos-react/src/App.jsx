@@ -1,5 +1,6 @@
 import "./App.css";
 import Input from "./Components/formulario/Input";
+import Contador from "./Components/contador/Contador";
 import React from "react";
 import DiretaPai from "./Components/comunicacao/DiretaPai";
 import ParOuImpar from "./Components/condicional/ParOuImpar";
@@ -10,30 +11,37 @@ import Familia from "./Components/basics/Familia";
 import FamiliaMembro from "./Components/basics/FamiliaMembro";
 import TabelaProdutos from "./Components/repeticao/TabelaProdutos";
 import IndiretaPai from "./Components/comunicacao/IndiretaPai";
+import Mega from "./Components/megasena/Mega.jsx";
 export default () => {
   return (
     <div className="App">
       <h1>Fundamentos React</h1>
 
       <div className="Cards">
-        <Card titulo = "Componente Controlado" color= "#829079">
+        <Card titulo="Sorteio Mega-Sena" color="#097770">
+          <Mega></Mega>
+        </Card>
+        <Card titulo="Contador" color="#7fe7dc">
+          <Contador></Contador>
+        </Card>
+        <Card titulo="Componente Controlado" color="#829079">
           <Input></Input>
         </Card>
         <Card titulo="Desafio Aleatório" color="#26495c">
           <Third maior={100} menor={1} />
         </Card>
         <Card titulo="Comunicação Direta" color="#c4a35a">
-         <DiretaPai/>
+          <DiretaPai />
         </Card>
         <Card titulo="Comunicação Indireta" color="#1978a5">
-         <IndiretaPai/>
+          <IndiretaPai />
         </Card>
         <Card titulo="Renderização Condicional" color=" #c66b3d">
-          <ParOuImpar numero = {16}/>
+          <ParOuImpar numero={65} />
         </Card>
         <Card titulo="#02 Renderização Condicional" color="#e5e5dc">
-          <UsuarioInfo usuario= {{nome: "Guilherme"}}></UsuarioInfo>
-          <UsuarioInfo usuario= {{}}></UsuarioInfo>
+          <UsuarioInfo usuario={{ nome: "Guilherme" }}></UsuarioInfo>
+          <UsuarioInfo usuario={{}}></UsuarioInfo>
         </Card>
         <Card titulo="ComponenteFilho">
           <Familia sobrenome="Rocha">
@@ -42,7 +50,7 @@ export default () => {
             <FamiliaMembro nome="Liz"></FamiliaMembro>
           </Familia>
         </Card>
-        <Card titulo="Repetição" color='#e52165'>
+        <Card titulo="Repetição" color="#e52165">
           <TabelaProdutos></TabelaProdutos>
         </Card>
       </div>

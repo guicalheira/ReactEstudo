@@ -1,0 +1,31 @@
+.contador input{
+    font-size: 1.2rem;
+    width: 60px;
+
+}
+
+.contador button{
+    margin: 15px;
+    font-weight: 500;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    
+    font-size: 1.4rem;
+    cursor: pointer;
+    background-color: green;
+   border:none;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;  
+    box-shadow:0 5px #006000;
+}
+.contador button:hover{
+    background: #006000;
+    box-shadow:0 5px 0 #003f00  ;
+}
+.contador button:active{
+    position: relative;
+    top:5px;
+    box-shadow: none;
+}

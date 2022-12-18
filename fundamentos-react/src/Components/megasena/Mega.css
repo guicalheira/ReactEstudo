@@ -1,0 +1,58 @@
+.mega{
+    border: none;
+    border-radius:10% ;
+}
+.mega h2{
+    font-weight: 700;
+}
+.mega button{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-top: 10px;
+    align-content: center;
+    font-weight: 700;
+    border: none;
+    color: white;
+    background-color: darkgreen;
+    box-shadow:0 5px rgb(1, 74, 1);
+    cursor: pointer;
+}
+.mega button:hover{
+    background: rgb(1, 74, 1);
+    box-shadow: 0 5 0 rgb(1, 55, 1);
+}
+.mega button:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+.mega input{
+    font-size: 1rem;
+    width: 40px;
+    background-color: green;
+    border-color: #fff;
+    align-content: center;
+    border-radius: 10%;
+}
+.mega label{
+    font-size: 1.1rem;
+    color: white;
+    margin-right: 10px;
+    
+ 
+}
+.mega h3{
+    color:  #fff;
+    background: green;
+    padding: 10px;
+    border-color: white ;
+    
+}
+.quantidade{
+    background-color: green;
+    padding: 10px;
+  
+    
+    
+}
